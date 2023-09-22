@@ -20,6 +20,7 @@
     $(function(){
         $("#header").load("header.html");
       $("#footer").load("footer.html");
+      $("#reserveTable").load("reservetable.html");
     });
     </script> 
 <html lang="en">
@@ -79,18 +80,29 @@
             </div>
             </div>
     
-    
-            <div class="row row-content align-items-center">
-            <div class="col col-sm col-md">
-                <div>
-                    <h3>This Month's Promotions</h3>
+           
+                <div class="row row-content align-items-center">
+                    <div class="col col-sm-3 col-md-3">
+                        <div>
+                            <h3>This Month's Promotions</h3>
+                        </div>
+                        
+                    </div>
+                    <div class="col col-sm-6 col-md-6">
+                        <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2> 
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+
+                    <div class="col col-sm-3 col-md-3">
+                        <img class="d-flex mr-3 img-thumbnail align-self-center"
+                    src="img/buffet.png" alt="buffet">
+                        
+                    </div>
                 </div>
-                <div>
-                    <h2>Weekend Grand Buffet</h2>
-                    <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-                </div>
-            </div>
-        </div>
+
+
+
+            
     
         <div class="row row-content align-items-center">
             <div class="col col-sm col-md">
@@ -111,6 +123,16 @@
                
             </div>
         </div>
+
+
+        <div class="row row-content align-items-center">
+            <div class="col col-sm-8 col-md-8">
+                <div id="reserveTable"></div>
+
+            </div>
+
+        </div>
+        
     
     
      
